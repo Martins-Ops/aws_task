@@ -1,0 +1,11 @@
+{
+    "Resources": {
+        "S3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "BucketName": "doc-example-bucket"
+            }
+        }
+    }
+}

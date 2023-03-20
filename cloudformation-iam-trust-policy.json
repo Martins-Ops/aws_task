@@ -1,0 +1,12 @@
+{
+    "Version": "2023-03-19",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "cloudformation.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}

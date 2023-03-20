@@ -1,0 +1,21 @@
+{
+    "Version": "2023-03-19",
+    "Statement": {
+        "Action": [
+            "s3:*",
+            "cloudformation:CreateStack",
+            "cloudformation:DescribeStacks",
+            "cloudformation:DeleteStack",
+            "cloudformation:UpdateStack",
+            "cloudformation:CreateChangeSet",
+            "cloudformation:ExecuteChangeSet",
+            "cloudformation:DeleteStack",
+            "cloudformation:DescribeChangeSet",
+            "cloudformation:SetStackPolicy",
+            "iam:PassRole",
+            "sns:Publish"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+    }
+}

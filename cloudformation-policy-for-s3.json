@@ -1,0 +1,16 @@
+{
+    "Version": "2023-03-19",
+    "Statement": {
+        "Effect": "Allow",
+        "Action": [
+            "s3:CreateBucket",
+            "s3:GetBucketLocation",
+            "s3:PutBucketAcl",
+            "s3:PutBucketPolicy",
+            "s3:PutBucketWebsite",
+            "s3:ListBucket",
+            "s3:GetBucketAcl"
+        ],
+        "Resource": "*"
+    }
+}
